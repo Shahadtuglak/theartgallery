@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Header Section*/
+header{
+    text-align: center;
+    padding: 1rem;
+}
+
+/*Navbar Section*/
+nav{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+nav a{
+    padding: 10px;
+}
+nav a:hover{
+    background-color: gold;
+}
+
+/* Showcase Section */
+.showcase{
+    background-image: url("showcase.jpg");
+    height: 85vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* About US Section*/
+
+#about{
+   margin-top: 30px;
+   margin-bottom: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Gallery */
+#gallery{
+    text-align: center;
+   
+    padding-top: 20px;
+    
+}
+
+
+
+/*Contact Us */
+#contact{
+    text-align: center;
+    height: 30vh;
+    padding-top: 30px;
+}
+
+.contactdetails{
+    padding:15px;
+}
+
+
+.sociallink img{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+
+
+/*Footer */
+footer{
+    text-align: center;
+    padding: 20px;
+}
+
+footer a{
+    color:red;
+}
+
+footer a:hover{
+    color: blue;
+}
+
+
+/* Media Query */
+
+/*  Mobile */
+@media  (max-width : 768px) {
+    
+
+    .galleryimage{
+    padding:10px;
+    
+    }
+
+    .galleryimage img{
+        height: 250px;
+        width: 100%;
+    }
+    
+}
+
+
+
+/* Tablet */
+
+@media  (min-width : 769px) and (max-width : 1023px) {
+
+    .galleryimage{
+        padding:20px;
+        display: flex;
+        justify-content: space-around;
+        }
+    
+        .galleryimage img{
+            height: 350px;
+            width: 30%;
+        }
+    
+}
+
+
+
+/* Desktop */
+
+@media  (min-width : 1024px) {
+
+   
+
+    .galleryimage{
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+    }
+
+    .galleryimage img{
+        height: 300px;
+        width: 30%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
